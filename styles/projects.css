@@ -1,0 +1,39 @@
+article:not(:last-of-type) {
+  border-bottom: 1px solid var(--border-color-article);
+}
+
+.article-card {
+  display: block;
+  padding-inline: 12px;
+  text-decoration: none;
+  color: var(--text-color-dark) !important;
+  padding-block: 24px;
+}
+
+.article-card:hover {
+  cursor: pointer;
+}
+
+article h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 16px;
+}
+
+.article-header span,
+article .tags {
+  font-size: 14px;
+  color: var(--text-color-dimmed);
+  text-wrap: nowrap;
+}
+
+article .tags {
+  margin-top: 18px;
+}
