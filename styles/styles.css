@@ -174,6 +174,12 @@ a {
   color: var(--text-color-link);
 } */
 
+body,
+.header,
+footer {
+  background-color: #fff;
+}
+
 [data-theme="dark"] {
   body,
   .header,
